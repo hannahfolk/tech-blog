@@ -21,7 +21,7 @@ Comment.belongsTo(User, {
 });
 
 Comment.belongsTo(Post, {
-  foreignLey: 'post_id',
+  foreignKey: 'post_id',
 });
 
 module.exports = { User, Post, Comment };
